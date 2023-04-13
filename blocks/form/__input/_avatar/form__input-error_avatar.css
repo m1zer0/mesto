@@ -1,0 +1,12 @@
+.form__input-error_avatar {
+  width: 358px;
+  position: absolute;
+  top: 162px;
+  left: 36px;
+}
+
+@media screen and (max-width: 677px) {
+  .form__input-error_avatar {
+    width: 200px;
+  }
+}

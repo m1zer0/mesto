@@ -1,0 +1,12 @@
+.form__input_url {
+  width: 358px;
+  position: absolute;
+  top: 162px;
+  left: 36px;
+}
+
+@media screen and (max-width: 677px) {
+  .form__input_url {
+    width: 200px;
+  }
+}

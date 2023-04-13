@@ -1,0 +1,17 @@
+@import url('./__group/element__group.css');
+@import url('./__title/element__title.css');
+@import url('./__img/element__img.css');
+@import url('./__like/element__like.css');
+@import url('./__button-like/element__button-like.css');
+@import url('./__number-like/element__number-like.css');
+@import url('./__button-like/_focus/element__button-like_focus.css');
+@import url('./__button-delete/element__button-delete.css');
+@import url('./__figure/element__figure.css');
+
+.element {
+  background-color: #fff;
+  min-width: 282px;
+  min-height: 361px;
+  border-radius: 10px;
+  overflow: hidden;
+}

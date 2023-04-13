@@ -1,0 +1,12 @@
+.popup__container_form-edit-avatar {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 430px;
+  max-height: 272px;
+}
+
+@media screen and (max-width: 677px) {
+  .popup__container_form-edit-avatar {
+    max-width: 280px;
+  }
+}

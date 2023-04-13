@@ -1,0 +1,12 @@
+.popup__container_delete-img {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 430px;
+  max-height: 181px;
+}
+
+@media screen and (max-width: 677px) {
+  .popup__container_delete-img {
+    max-width: 280px;
+  }
+}

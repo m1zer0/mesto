@@ -1,0 +1,10 @@
+@import url('./_hidden/element__number-like_hidden.css');
+
+.element__number-like {
+  font-family: Inter;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  padding: 0;
+  margin: 3px 0 0;
+}

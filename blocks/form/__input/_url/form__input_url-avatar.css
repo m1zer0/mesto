@@ -1,0 +1,12 @@
+.form__input_url-avatar {
+  width: 358px;
+  position: absolute;
+  top: 111px;
+  left: 36px;
+}
+
+@media screen and (max-width: 677px) {
+  .form__input_url-avatar {
+    width: 200px;
+  }
+}
