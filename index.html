@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Mesto</title>
+</head>
+
+<body class="root">
+
+    <header class="header">
+
+        <img class="header__logo" src="./images/logo.svg" alt="Место">
+
+    </header>
+
+
+    <main class="content">
+
+        <section class="profile">
+            <img class="profile__avatar" src="./images/kusto.jpg" alt="Кусто">
+            <div class="profile__profile-info">
+                <h1 class="profile__name" id="Output-name">Жак-Ив Кусто</h1>
+                <button class="profile__edit-button" type="button" id="open-pop-up"></button>
+                <p class="profile__prof" id="Output-prof">Исследователь океана</p>
+            </div>
+            <button class="profile__add-button" type="button"></button>
+        </section>
+
+        <section class="location-cards">
+
+            <div class="location-card">
+                <img class="location-card__image" src="./images/karachevsk.jpg" alt="Карачаевск">
+                <div class="location-card__menu">
+                    <h2 class="location-card__name">Карачаево-Черкесия</h2>
+                    <button class="location-card__like" type="button" id="activeLike"></button>
+                </div>
+            </div>
+
+            <div class="location-card">
+                <img class="location-card__image" src="./images/elbrus.png" alt="Эльбрус">
+                <div class="location-card__menu">
+                    <h2 class="location-card__name">Гора Эльбрус</h2>
+                    <button class="location-card__like" type="button"></button>
+                </div>
+            </div>
+
+            <div class="location-card">
+                <img class="location-card__image" src="./images/dombay.png" alt="Домбай">
+                <div class="location-card__menu">
+                    <h2 class="location-card__name">Домбай</h2>
+                    <button class="location-card__like" type="button"></button>
+                </div>
+            </div>
+
+            <div class="location-card">
+                <img class="location-card__image" src="./images/elbrus.png" alt="Эльбрус">
+                <div class="location-card__menu">
+                    <h2 class="location-card__name">Гора Эльбрус</h2>
+                    <button class="location-card__like" type="button"></button>
+                </div>
+            </div>
+
+            <div class="location-card">
+                <img class="location-card__image" src="./images/dombay.png" alt="Домбай">
+                <div class="location-card__menu">
+                    <h2 class="location-card__name">Домбай</h2>
+                    <button class="location-card__like" type="button"></button>
+                </div>
+            </div>
+
+            <div class="location-card">
+                <img class="location-card__image" src="./images/karachevsk.jpg" alt="Карачаевск">
+                <div class="location-card__menu">
+                    <h2 class="location-card__name">Карачаево-Черкесия</h2>
+                    <button class="location-card__like" type="button"></button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">© 2023 Mesto </p>
+    </footer>
+
+    <div class="pop-up pop-up_opened" id="pop-up_opened">
+        <div class="pop-up__container" id="pop-up-body">
+            <h2 class="pop-up__name">Редактировать профиль</h2>
+            <form class="pop-up__form" id="body-form" action="html/sendform" name="body-form">
+                <input class="pop-up__input" id="input-name" type="text" placeholder="Введите имя" name="first-name">
+                <input class="pop-up__input" id="input-job" type="text" placeholder="Введите род деятельности" name="job">
+                <button class="pop-up__button" type="submit">Сохранить</button>
+            </form>
+            <button class="pop-up__close-pop-up" id="close-pop-up" type="button"></button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

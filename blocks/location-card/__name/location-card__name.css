@@ -1,0 +1,12 @@
+.location-card__name {
+    margin: 0;
+    max-width: 200px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

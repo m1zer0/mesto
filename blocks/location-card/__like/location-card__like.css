@@ -1,0 +1,18 @@
+.location-card__like {
+    width: 22px;
+    height: 19px;
+    padding: 0;
+    background-image: url(../../../images/like.svg);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    align-self: center;
+    transition: all .5s ease;
+}
+
+.location-card__like:hover{
+    opacity: .5;
+}

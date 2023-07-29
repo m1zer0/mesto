@@ -1,0 +1,6 @@
+.location-card__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto 0;
+    max-width: 246px;
+}
