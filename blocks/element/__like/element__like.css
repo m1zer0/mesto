@@ -10,6 +10,7 @@
     top: 5px;
     right: 8px;
     flex-shrink: 0;
+    padding: 0;
 }
 
 .element__like:hover {
