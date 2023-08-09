@@ -13,6 +13,7 @@
     cursor: pointer;
     font: inherit;
     background-color: transparent;
+    padding: 0;
 }
 
 .profile__add-button:hover {
