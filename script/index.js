@@ -164,6 +164,4 @@ formElementAdd.addEventListener('submit', function (evt) {
     toggleButtonState(Array.from(formElementAdd.querySelectorAll(config.inputSelector)), formElementAdd.querySelector(config.submitButtonSelector), config);
 });
 
-function newFunction() {
     enableValidation(config)
-}
