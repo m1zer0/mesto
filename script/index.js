@@ -147,7 +147,7 @@ closeButtonFullView.addEventListener('click', () => {
     closePopup(popupFullView);
 });
 
-const submitButton = document.querySelector('popup__submit_button');
+const submitButton = document.querySelector('popup__submit-button');
 const addInputName = document.querySelector('.popup__input_name');
 const addInputLink = document.querySelector('.popup__input_link');
 
@@ -164,4 +164,4 @@ formElementAdd.addEventListener('submit', function (evt) {
     toggleButtonState(Array.from(formElementAdd.querySelectorAll(config.inputSelector)), formElementAdd.querySelector(config.submitButtonSelector), config);
 });
 
-enableValidation(config);
+enableValidation(config)
