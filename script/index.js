@@ -147,7 +147,7 @@ closeButtonFullView.addEventListener('click', () => {
     closePopup(popupFullView);
 });
 
-const submitButton = document.querySelector('popup__submit');
+const submitButton = document.querySelector('popup__submit_button');
 const addInputName = document.querySelector('.popup__input_name');
 const addInputLink = document.querySelector('.popup__input_link');
 
